@@ -1,0 +1,59 @@
+body {
+    font-family: 'nunito' sans-serif;
+    margin:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline:none; border:none ;
+    text-transform: capitalize;
+    transition: all .2s linear;
+
+}
+
+header {
+    background-color: #005f73;
+    color: white;
+}
+
+footer {
+    background-color: #005f73;
+    color: white;
+}
+
+.hero {
+    background-image: url('img/about.jpg');
+    background-size: cover; /* Makes sure the image covers the section */
+    background-position: center;
+    height: 100vh; /* Makes the hero section fill the entire height of the viewport */
+}
+
+footer p {
+    margin-bottom: 0;
+}
+
+section {
+    padding: 40px 0;
+}
+
+h2, h4 {
+    color: #003d29;
+}
+
+.btn-primary {
+    background-color: #008080;
+    border-color: #008080;
+}
+
+.btn-success {
+    background-color: #2e8b57;
+    border-color: #2e8b57;
+}
+
+.btn-light {
+    background-color: #ffffff;
+    border-color: #ffffff;
+    color: #005f73;
+}
+
+@media (max-width: 768px) {
+    .hero {
+        padding: 
